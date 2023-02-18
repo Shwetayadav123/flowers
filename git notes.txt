@@ -1,0 +1,41 @@
+git --version
+set a name:
+ git config --global user.name "Enter your name"
+git config --global user.email "Enter your email" 
+git config --global user.email
+git config --global --edit       
+mkdir letlearngit               create a directory 
+cd letlearngit/             for change directory 
+git init                      create  a repositary
+git add filename       
+git status
+ls -lart                     show hidden folders
+git checkout filename      recover whatever written in your file last time
+git checkout -f               recover all files
+git log                       it show the details about commit file 
+git log -p -numbers(like 1,2,3....)             jitna number denge utnaa last commit show karegaa 
+q                  exit the line
+git diff      show chenges whatever done in your file   compare working area to staging(commit) area
+git diff --staged    last stage area se compare karta hai
+git commit -a -m "Skipped staging area and fixed"     skipped stage area and commit your particular number of file where you are working
+git commit -a -m "Added filename"              single file commited 
+git rm filename                    remove file 
+git rm --cached filename            remove your file form staged area
+  -v, --verbose         be verbose
+    -s, --short           show status concisely
+    -b, --branch          show branch information
+    --show-stash          show stash information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain[=<version>]
+                          machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --ignored[=<mode>]    show ignored files, optional modes: traditional, matching, no. (Default: traditional)
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules, optional when: all, dirty, untracked. (Default: all)
+    --column[=<style>]    list untracked files in columns
+    --no-renames          do not detect renames
+    -M, --find-renames[=<n>]
+                          detect renames, optionally set similarity index
